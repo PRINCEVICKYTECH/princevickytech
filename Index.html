@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PrinceVicky | Graphic Designer &amp; Web Developer</title>
+<meta name="description" content="Portfolio of PrinceVicky Tech — a Nigerian graphic designer and web developer crafting bold brand identities, flyers, portraits and modern websites." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ================= HEADER / NAV ================= -->
+<header id="header">
+  <nav class="nav container">
+    <a href="#home" class="logo">Prince<span class="accent">Vicky</span></a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+      <li><a href="#blog" class="nav-link">Blog</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle dark mode">
+        <svg id="sunIcon" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        <svg id="moonIcon" class="icon hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+      </button>
+      <a href="cv/PrinceVicky-CV.pdf" download class="btn btn-primary btn-sm desktop-only">
+        Download CV
+      </a>
+      <button id="menuToggle" class="icon-btn mobile-only" aria-label="Toggle menu">
+        <svg id="menuIcon" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+        <svg id="closeIcon" class="icon hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home" class="mobile-link">Home</a>
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#projects" class="mobile-link">Projects</a>
+    <a href="#testimonials" class="mobile-link">Testimonials</a>
+    <a href="#blog" class="mobile-link">Blog</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+    <a href="cv/PrinceVicky-CV.pdf" download class="btn btn-primary" style="margin-top:1rem;width:100%;">Download CV</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- ================= HERO ================= -->
+  <section id="home" class="hero bg-grid">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <div class="container hero-inner">
+      <div class="hero-text reveal">
+        <span class="eyebrow"><svg class="icon-inline" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.2H22l-6 4.4 2.4 7.2L12 16.4 5.6 20.8 8 13.6 2 9.2h7.6z"/></svg> Based in Ogun State, Nigeria</span>
+        <h1>Crafting bold visuals &amp; <span class="accent">modern web</span> experiences</h1>
+        <p class="hero-desc">
+         Hello there. I'm Ezekiel Hephzibah Kolawole, I'm a Nigerian graphic designer and web developer and
+          the face behind the brand 
+         <strong><a><span class="accent">PRINCEVICKY TECH</span></a></strong>. I design brand identities, event flyers and
+          portraits, and build fast, modern websites for individuals, churches and businesses.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="cv/PrinceVicky-CV.pdf" download class="btn btn-secondary">Download CV</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>50+</strong><span>Projects Delivered</span></div>
+          <div class="divider"></div>
+          <div><strong>30+</strong><span>Happy Clients</span></div>
+          <div class="divider"></div>
+          <div><strong>4+</strong><span>Years Experience</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="hero-card float">
+          <img src="image.png" alt="PV">
+        </div>
+        <div class="hero-tag">
+          <p class="tag-label">Available for</p>
+          <p class="tag-value">Freelance Projects</p>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue">Scroll <svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg></a>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow center">About Me</span>
+        <h2>Designer &amp; Developer with a <span class="accent">Nigerian soul</span></h2>
+        <p>
+          I run PRINCEVICKY TECH, a creative studio offering graphic design, event programs,
+          portraits and brand design work, advert video generator and a Legal compliance Agent.
+          Rooted in Idi Ayin, Ogun State, I blend cultural storytelling with clean, modern designs for churches, schools, businesses and
+          individuals across Nigeria and beyond.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="card pad reveal">
+          <h3>My Story</h3>
+          <p>
+            My journey started with a passion for visual storytelling, designing flyers and
+            portraits for church events and community celebrations. Over time, that grew into a
+            full creative practice spanning through, brand identities, AI-assisted design work, and modern,
+            responsive websites. 
+            <br>  I hold a Bachelor of Theology and am currently pursuing further
+            education, which shapes the thoughtful, purpose-driven way I approach every project. </br>
+          </p>
+          <div class="tags">
+            <span class="tag">CorelDRAW</span>
+            <span class="tag">Photoshop</span>
+            <span class="tag">HTML &amp; CSS</span>
+            <span class="tag">Figma</span>
+            <span class="tag">Midjourney</span>
+          </div>
+        </div>
+
+        <div class="skills reveal">
+          <div class="skill">
+            <div class="skill-label"><span>Brand &amp; Graphic Design</span><span>95%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-label"><span>Web Development (HTML/CSS/JS)</span><span>85%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-label"><span>Event &amp; Church Program Design</span><span>90%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-label"><span>AI-Assisted Design</span><span>47%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="47"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow center">Portfolio</span>
+        <h2>Selected <span class="accent">Projects</span></h2>
+        <p>A showcase of design and development work ranging from flyers and portraits to full websites built for real clients.</p>
+      </div>
+
+      <div class="filters reveal" id="filters">
+        <button class="filter-btn active" data-filter="All">All</button>
+        <button class="filter-btn" data-filter="Graphic Design">Graphic Design</button>
+        <button class="filter-btn" data-filter="Web Development">Web Development</button>
+        <button class="filter-btn" data-filter="Portrait Design">Portrait Design</button>
+        <button class="filter-btn" data-filter="Brand Design">Brand Design</button>
+      </div>
+
+      <div class="project-grid" id="projectGrid"></div>
+    </div>
+  </section>
+
+  <!-- ================= TESTIMONIALS ================= -->
+  <section id="testimonials" class="section testimonials-section">
+    <div class="blob blob-3"></div>
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow center">Testimonials</span>
+        <h2 class="light">What Clients <span class="accent">Say</span></h2>
+      </div>
+
+      <div class="testimonial-wrap reveal">
+        <svg class="quote-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z"/></svg>
+        <div class="testimonial-track" id="testimonialTrack"></div>
+        <div class="testimonial-controls">
+          <button class="circle-btn" id="prevTestimonial" aria-label="Previous testimonial">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+          <div class="dots" id="testimonialDots"></div>
+          <button class="circle-btn" id="nextTestimonial" aria-label="Next testimonial">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= BLOG ================= -->
+  <section id="blog" class="section">
+    <div class="container">
+      <div class="section-head split reveal">
+        <div>
+          <span class="eyebrow">Blog</span>
+          <h2>Thoughts on <span class="accent">Design &amp; Code</span></h2>
+        </div>
+      </div>
+
+      <div class="blog-grid" id="blogGrid"></div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow center">Contact</span>
+        <h2>Let's Build Something <span class="accent">Great Together</span></h2>
+        <p>Have a project in mind — a flyer, a brand identity, or a full website? Send a message and I'll get back to you shortly.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="card pad contact-item">
+            <span class="icon-circle">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><path d="M2 6h20v12H2z"/></svg>
+            </span>
+            <div>
+              <p class="label">Email</p>
+              <p class="value">princevickytech.official@gmail.com</p>
+            </div>
+          </div>
+          <div class="card pad contact-item">
+            <span class="icon-circle">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            </span>
+            <div>
+              <p class="label">Phone / WhatsApp</p>
+              <p class="value">+234 812 7486 877
+              <p class="value">+234 906 0133 921
+            </div>
+          </div>
+          <div class="card pad contact-item">
+            <span class="icon-circle">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </span>
+            <div>
+              <p class="label">Location</p>
+              <p class="value">Idi Ayin, Ogun State, Nigeria</p>
+            </div>
+          </div>
+          <div class="socials">
+            <a href="#" class="icon-btn" aria-label="Instagram">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+            </a>
+            <a href="#" class="icon-btn" aria-label="Facebook">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <form class="card pad contact-form reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" />
+              <span class="error-msg" id="nameError"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" />
+              <span class="error-msg" id="emailError"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."></textarea>
+            <span class="error-msg" id="messageError"></span>
+          </div>
+          <button type="submit" class="btn btn-primary" id="submitBtn">
+            <span id="submitText">Send Message</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div>
+      <a href="#home" class="logo">Prince<span class="accent">Vicky</span> Tech</a>
+      <p class="footer-tag">Graphic Design &amp; Web Development, Ogun State, Nigeria.</p>
+    </div>
+    <div class="socials">
+      <a href="#" class="icon-btn" aria-label="Instagram">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+      </a>
+      <a href="#" class="icon-btn" aria-label="Facebook">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+      </a>
+      <a href="mailto:hello@princevickytech.com" class="icon-btn" aria-label="Email">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 6l-10 7L2 6"/><path d="M2 6h20v12H2z"/></svg>
+      </a>
+    </div>
+    <p class="footer-copy">&copy; <span id="year"></span> PrinceVicky Tech. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- ================= BLOG POST MODAL ================= -->
+<div class="modal-overlay" id="blogModal">
+  <div class="modal-box">
+    <button class="icon-btn modal-close" id="modalClose" aria-label="Close">
+      <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
